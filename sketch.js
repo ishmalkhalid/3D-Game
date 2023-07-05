@@ -130,8 +130,8 @@ function draw() {
 	}
 
 	// decrement fuel after some time
-	if (frameCount % 20 == 0 && fuelbox.getWidth() >= 0.1){
-		fuelbox.setWidth(fuelbox.getWidth()-0.01);
+	if (frameCount % 20 == 0 && fuelbox.getWidth() >= 0.09){
+		fuelbox.setWidth(fuelbox.getWidth()-0.09);
 	}
 
 	// only move car if there is fuel
