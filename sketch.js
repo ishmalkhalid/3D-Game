@@ -130,7 +130,7 @@ function draw() {
 	}
 
 	// decrement fuel after some time
-	if (frameCount % 50 == 0 && fuelbox.getWidth() >= 0.6){
+	if (frameCount % 50 == 0 && fuelbox.getWidth() >= 10){
 		fuelbox.setWidth(fuelbox.getWidth()-0.01);
 	}
 
